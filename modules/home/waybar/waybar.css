@@ -1,0 +1,55 @@
+@import "globals.css";
+
+* {
+  font-family: 'JetBrains Mono Nerd Font', Font Awesome;
+  font-size: 12px;
+  min-height: 25px;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+.modules-right,
+.modules-center,
+.modules-left {
+  border-radius: 100px;
+  margin: 4px;
+  background: rgba(255, 255, 255, 0.075);
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+  padding: 0 10px 0 10px;
+}
+
+#workspaces {
+  min-height: 10px;
+  padding: 0;
+}
+
+#workspaces button {
+  border-radius: 50px;
+}
+
+window#waybar {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  border: 1.5px solid rgba(255, 255, 255, 0.1);
+}
+
+#battery,
+#custom-clipboard,
+#custom-colorpicker,
+#custom-powerDraw,
+#bluetooth,
+#pulseaudio,
+#network,
+#disk,
+#memory,
+#backlight,
+#cpu,
+#temperature,
+#custom-weather,
+#idle_inhibitor,
+#jack,
+#tray,
+#window,
+#workspaces,
+#clock {
+  padding: 0 5px;
+}

@@ -1,0 +1,54 @@
+author = "Jules <uwu@dodrugsbe.gay> / original by Michaël Ball"
+name = "Tokyo Night Dark (base24)"
+slug = "tokyo-night-dark_(base24)"
+
+[colors]
+base00 = "#1A1B26"   # Background color
+base01 = "#16161E"   # Darker background (status bars, line number, folding marks)
+base02 = "#2F3549"   # Selection background
+base03 = "#444B6A"   # Comments, invisible characters, line highlighting
+base04 = "#787C99"   # Dark foreground (status bars)
+base05 = "#A9B1D6"   # Default foreground, caret, delimiters, operators
+base06 = "#CBCCD1"   # Light foreground (not often used)
+base07 = "#D5D6DB"   # Light background (not often used)
+base08 = "#C0CAF5"   # Variables, XML tags, markup link text, markup lists, Diff Deleted
+base09 = "#A9B1D6"   # Integers, boolean, constants, XML attributes, markup link URL
+base0A = "#0DB9D7"   # Classes, markup bold, search text background
+base0B = "#9ECE6A"   # Strings, inherited class, markup code, Diff Inserted
+base0C = "#B4F9F8"   # Support, regular expressions, escape characters, markup quotes
+base0D = "#2AC3DE"   # Functions, methods, attribute IDs, headings
+base0E = "#BB9AF7"   # Keywords, storage, selector, markup italic, Diff Changed
+base0F = "#F7768E"   # Deprecated, opening/closing embedded language tags, e.g. <?php ?>
+base10 = "#FF9E64"   # Warnings, deprecated
+base11 = "#D18616"   # Darker orange for better contrast in UI elements
+base12 = "#73DACA"   # Cyan for additional functions or method highlighting
+base13 = "#FF007C"   # Bright pink for standout elements
+base14 = "#7AA2F7"   # Light blue for subtle background highlights
+base15 = "#FF79C6"   # Pink for markup emphasis
+base16 = "#BD93F9"   # Purple for additional keyword highlighting
+base17 = "#6272A4"   # Muted blue for subtle UI elements
+base18 = "#50FA7B"   # Green for success messages
+base19 = "#8BE9FD"   # Bright cyan for active elements
+base1A = "#FFB86C"   # Orange for information messages
+base1B = "#F8F8F2"   # Very light grey for borders or additional highlights
+
+[diagnostic]
+# underline_error = { cterm = "undercurl", gui = "undercurl", fg = "#db4b4b" }
+# underline_error = { cterm = "undercurl", gui = "undercurl", fg = "#FF007C" }
+# underline_warn = { cterm = "undercurl", gui = "undercurl", fg = "#e0af68" }
+# underline_info = { cterm = "undercurl", gui = "undercurl", fg = "#0db9d7" }
+# underline_hint = { cterm = "undercurl", gui = "undercurl", fg = "#1abc9c" }
+#
+# underline_warn = { cterm = "undercurl", gui = "undercurl", fg = "#FFA500" }   
+# underline_info = { cterm = "undercurl", gui = "undercurl", fg = "#00FFFF" }  
+# underline_hint = { cterm = "undercurl", gui = "undercurl", fg = "#00FFAA" } 
+# underline_ok = { cterm = "undercurl", gui = "undercurl", fg = "#00FF00" }  
+# underline_warn = { cterm = "undercurl", gui = "undercurl", fg = "#D18616" }
+# underline_info = { cterm = "undercurl", gui = "undercurl", fg = "#0DB9D7" }
+# underline_hint = { cterm = "undercurl", gui = "undercurl", fg = "#73DACA" }
+# underline_ok = { cterm = "undercurl", gui = "undercurl", fg = "#50FA7B" }
+underline_error = { cterm = "undercurl", gui = "undercurl", fg = "#FF007C" }
+underline_warn = { cterm = "undercurl", gui = "undercurl", fg = "#FECD44" }
+underline_info = { cterm = "undercurl", gui = "undercurl", fg = "#00CFFF" }
+underline_hint = { cterm = "undercurl", gui = "undercurl", fg = "#00FFAA" }
+underline_ok = { cterm = "undercurl", gui = "undercurl", fg = "#00FF66" }  
